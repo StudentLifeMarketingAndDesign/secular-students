@@ -1,9 +1,9 @@
 /*
-Theme Name: omega-child
+Theme Name: SecSI Theme
 Template: omega
 Theme URI: 
 Author: JS
-Version: 0.9.3
+Version: Dev
 License: GNU General Public License
 License URI: license.txt
 Tags: 
@@ -12,33 +12,57 @@ Tags:
 
 @import url("../omega/style.css");
 
+.widget {
+	
+}
+
+h1, h2, h3, h4, a {
+	color: # #393636;
+}
+
+
 .site-container {
 	color: #000000;
 }
 
+.site-header {
+	background-color: #2C343B;
+	
+}
+
+.nav-primary {
+	background-color: #fff;
+	background-image: url('style-images/lightpaperfibers.png'); 
+}
+
+.nav-primary a {
+	font-weight: bold;
+	color: #444;
+	padding: 10px 15px;
+}
+
 .site-header > .wrap {
+	
 	padding: 10px;
 }
 	
 .site-inner {
 	padding-top: 0;
-	background-color: #26393D;
+	background-color: #fff;
 	border-top: inset #40627C 3px;
+	
 }
 
 .wrap {
-	padding: 5px 10px;	
-	}
-
-.site-inner > .wrap {
-	background-color: #FFFAE4;
-	padding-top: 20px;
-	border-left: inset #40627C 5px;
-	border-right: outset #40627C 5px;
+	padding: 10px 20px;
+	max-width: 1030px;
 }
 
-
-
+.site-inner > .wrap {
+	background-color: #fff;
+	padding-top: 20px;
+	box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.65), -5px 0 5px -5px rgba(0, 0, 0, 0.65);
+}
 	
 header > .wrap {
 	background-color: #FFFAE4;
@@ -46,45 +70,166 @@ header > .wrap {
 	
 .content {
 	
-	}
+}
 	
 .sidebar {
+	width: 330px;
+	padding: 15px;
+}
+
+
+#home-page-slider {	
+	height: 400px;	
+}
+
+#home-page-slider img {
+	height: 400px;
+	margin: 0 auto;
+}
+
+#home-page-slider .promo_slider_background_image img {
+	height: 400px;
+	display: block;
+	margin: 0 auto;
+    vertical-align: middle;
+}
+
+.promo_slider_excerpt {
+	width: 100% !important;
+}
+	
+@media only screen and (max-width: 1023px) {
+	
+	.sidebar-primary {
+		width: 100%;	
 	}
+	
+	#home-page-slider {	
+		width: 100%;
+		max-width: 700px;		
+		height: 400px;
+		margin: 0 auto;
+	}
+	
+	#home-page-slider .promo_slider_background_image{
+		width: 100%;
+		height: auto;
+	}
+
+	#home-page-slider img {		
+		height: auto;
+	    vertical-align: middle;
+	}
+
+}	
 
 #homepage-extras {
 }
 
 .extras {
-	border-top: solid black 1px;
 	padding: 7px 7px;
 	display: inline-block;
-	float: left;
 	width: 44%;
 	margin: 10px;
 	
 }
 
 #extras-left {
-	border-left: solid black 1px;
 	float: left;
 }
 
 #extras-right {
-	border-right: solid black 1px;
 	float: right;
 }
 
 
 #footer {
-	background-color: #778899;
+	background-color: #2C343B;
 	color: black;
 	padding: 10px 0;
 }
 
-#footer a {
-	color: black;
-	}
+.footer-widgets {
+	border-top: inset #2C343B 3px;
+	background-color: #fff;
+}
+.copyright, copyright>a {
+	color: grey;
+}
 
 .credit {
 	display: none;
 	}
+	
+#content {
+
+}
+	
+.content li {
+	list-style-type: none;	
+}
+
+.content ul li a:first-child {
+	font-size: 30px;
+	color: black;
+	
+}
+
+.content ul {
+	margin-left: 0;
+}
+
+.display-none {
+	display: none;
+}
+
+table.em-calendar {
+	width: 100%;
+}
+
+#respond {
+	background: none;
+}
+
+.lord-row {
+  overflow-x: scroll; /* 1 */
+  -webkit-overflow-scrolling: touch; /* 2 */
+}
+
+.lord-row ul {
+  width: 100%; /* 4 */
+  white-space: nowrap;
+  max-height: 350px;
+}
+
+
+.lord-row ul:after { /* 5 */
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.lord-row ul li {
+  display: inline-block; /* 6 */
+  white-space: normal;
+  padding: 10px;
+  margin: 0 3px 0 0;
+  max-height: 333px;
+  overflow-y: auto;
+  
+}
+
+.lord-main-image {
+	float: left;
+	text-align: left;
+	max-width: 240px;
+	padding: 5px;
+}
+
+.lord-main-details {
+	float: left;
+	text-align: left;
+	max-width: 250px;
+	padding: 5px;
+}
+

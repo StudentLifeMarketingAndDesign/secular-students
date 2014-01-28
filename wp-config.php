@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'secularsDBamatl');
+define('DB_NAME', 'secularstudents');
 
 /** MySQL database username */
-define('DB_USER', 'secularsDBamatl');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'n0Kpm07MJX');
+define('DB_PASSWORD', 'omega');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'jMyq3bq2X*t6i;2a.+9m5ae#}zCr0Yc}Y@r7c,U$Fuf,X$.M+mX.<P+H;e#PT_L');
-define('SECURE_AUTH_KEY',  'tata-Ghd~OW!Ook1Vd[Vw40R@0UvFnY>Qb$Muj,Xj.U+q{eq6b.xEm]Di]*Lt1De5');
-define('LOGGED_IN_KEY',    'atl5Wl[W-~CKw1hZzKR@Jk[}NY^Nrj>Bg3UIqAb<HiX*PW+Ote#Wx_l9Zl#d~o4gs');
-define('NONCE_KEY',        '0!N8v@7nYJrBc^X,EAn<Ab{KOW_Opl#Sd|Rwo:~g:4g}!Jv!Nvj,c$>U$r{fq7b');
-define('AUTH_SALT',        ']#99Gh9[K!COoGgV@JowNoc}7k,^Bn<3{b$]b+x2eqDi.+9lxKpa#St-o[!Rs|Rv0');
-define('SECURE_AUTH_SALT', 'O1[Wd~Rwl8d~[c@o4gs}g,vJU$BInE,$ITuMm{.Pb+Tti6We;WLlDh_;h_w@BJkB');
-define('LOGGED_IN_SALT',   ';+HWxHld~Ow_Ct4[V@[V-s:Z|}c@vFgz3j,^Br3EAu*Lqi.Pi_Ttp]Wp]a+tDdw1h');
-define('NONCE_SALT',       'hPW~K9s:5a1SGo8Gh8ZNvFJzr}Yr}c@vFgy3j,^Mn*AqiPb.PEm6Wi]aLt9ep1hS~');
+define('AUTH_KEY',         'X<1)Po-OVL&?BK$<8sa 0iX@@*/Goj!b tV4O mDUqzQ0jIB)Qum`&u(4P-a2Fk{');
+define('SECURE_AUTH_KEY',  '=/8MT%+*OsB6M0A=iU5IhP-1N%L0N+WK1f@Eaqd8=k{rMYf|tRH+PfKWBAcV_%+3');
+define('LOGGED_IN_KEY',    '<BtYB&MI){^f=GooI~pYk$>K`tOlvgq@|+|d&cd5#`Yvn &l_)X+%|u[|#KG~%+o');
+define('NONCE_KEY',        '<?2Ffp-m1|X.uL!]kmdJ`4+`M2Cu[e:k/epShFh*YX9 +naTUnrW_%wa$*ziPV|]');
+define('AUTH_SALT',        '0+s<Q;p=[Wj!~Sjd`Fl/<qX?|Rl,^-T-j6XZ)9<xH#i:+oTS1zt=%+|[{/v45kt}');
+define('SECURE_AUTH_SALT', '+c:7typfd-bzt&o5+3<b}OE^r+~|E-jpMD^8o(s1]a3V;Fc|#aln-4C1tR{Vd]0/');
+define('LOGGED_IN_SALT',   'ffHU[3q3AhCj]Lv)J}4~P]y@JI7HL6*7c-27ISg&B|yEP@qf4(ij<| bHL3ukt4#');
+define('NONCE_SALT',       'k+ UKeValR`-t& smE|u&=*6HEv|EXwAFS4+6a+ja%7c %nu@tUSLw~->wl{2$%E');
 
 /**#@-*/
 
@@ -78,7 +78,7 @@ define('WPLANG', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);define('FS_METHOD', 'direct');
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 
