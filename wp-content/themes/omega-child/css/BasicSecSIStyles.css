@@ -1,0 +1,92 @@
+/*
+*
+** Basic page styles for SecSI Theme
+*
+*/
+h1, h2, h3, h4 {
+    color: #2C343B;
+    }
+
+p {
+    color: #282828;
+    }
+
+a {
+    color: #A33D47;
+    }
+
+.site-container {
+    color: #000;
+    }
+
+.site-header {
+    background-color: #2C343B;
+    }
+
+.nav-primary {
+    background-color: #fff;
+    background-image: url(css/style-images/lightpaperfibers.png);
+    }
+
+.nav-primary a {
+    font-weight: bold;
+    color: #282828;
+    padding: 10px 15px;
+    }
+
+.site-header > .wrap {
+    padding: 10px;
+    }
+
+.site-inner {
+    padding-top: 0;
+    background-color: #393636;
+    /*background-color: rgba(163,61,71,.8);*/
+    border-top: inset #40627C 3px;
+    }
+
+.wrap {
+    padding: 10px 20px;
+    max-width: 1030px;
+    }
+
+.site-inner > .wrap {
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    -moz-box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.65), -5px 0 5px -5px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.65), -5px 0 5px -5px rgba(0, 0, 0, 0.65);
+    box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.65), -5px 0 5px -5px rgba(0, 0, 0, 0.65);
+    }
+
+header > .wrap {
+    background-color: #FFFAE4;
+    }
+
+.sidebar {
+    width: 330px;
+    padding: 15px;
+    }
+
+/*
+*
+** footer styles
+*
+*/
+#footer {
+    background-color: #2C343B;
+    color: black;
+    padding: 10px 0;
+    }
+
+.footer-widgets {
+    border-top: inset #2C343B 3px;
+    background-color: #F2F2F2;
+    }
+
+.copyright, copyright > a {
+    color: grey;
+    }
+
+.credit {
+    display: none;
+    }

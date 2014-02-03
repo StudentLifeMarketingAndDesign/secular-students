@@ -36,7 +36,7 @@ jQuery.each(listItems, function( i, val ) {
 // Handles the creation of all buttons, tags, heading elements. Original divs created in cms, perhaps should be moved here.
 // Although page should always have tags, we don't want them showing up if the tags go missing for some reason. Thus, if.
 if (tagArray.length != 0) {
-	jQuery('#category-nav-menu').prepend("<h5>Sort by Tag:</h5><button type='button'class='sort-tag-button' id='sort-show-all'>Show All Posts</button><button type='button' class='sort-tag-button' id='freq'>By Frequency</button><button type='button' class='sort-tag-button' id='alpha'>Alphabetically</button>"); // let's hide away tags when not in use
+	jQuery('#category-nav-menu').prepend("<h5>Sort Tag...</h5><button type='button'class='sort-tag-button' id='sort-show-all'>Show All Posts</button><button type='button' class='sort-tag-button' id='freq'>By Frequency</button><button type='button' class='sort-tag-button' id='alpha'>Alphabetically</button>"); // let's hide away tags when not in use
 	jQuery('.entry-title').css('margin-bottom', '0'); //squeezes nav right under page heading, for good looks
 }
 //sorts tagArray alphabetically, likely will have muliptle repeated tags
@@ -112,8 +112,22 @@ jQuery('.category-nav button').click(function() {
         }
     })
 });
-</script>				
-		
+</script>	
+<script>
+//breaks skelton grid into rows of three, for proper formating. Can't seem to get around the miniloops limitations
+var $lordGrid = jQuery('#lord-grid').children();
+var countLordGrid = 0;
+jQuery.each($lordGrid, function( i, val ) {
+	if (countLordGrid == 3) {
+		jQuery(this).before("<br class='clear'>");
+		countLordGrid = 1;
+		console.log('added br');
+	}else {
+		countLordGrid++;
+		console.log(countLordGrid);
+	}
+});
+</script>	
 	</main><!-- .content -->
 
 <?php get_footer(); ?>
