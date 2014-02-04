@@ -68,16 +68,11 @@ Tags:
 ** home page styles
 *
 */    
-.content li {
-    list-style-type: none;
-    }
 
-.content ul li a:first-child {
-    }
-
-.content ul {
-    margin-left: 0;
-    }
+.home-page-ul li {
+	margin-bottom: 0 !important;
+	padding: 11px;
+}
 
 .display-none {
     display: none;
@@ -142,13 +137,13 @@ table.em-calendar {
 	display: inline-block;
     float: left;
     max-width: 240px;
+    margin-right:20px;
     }
 
 .lord-main-details {
     float: left;
     text-align: left;
     max-width: 240px;
-    padding: 15px;
     max-height: 333px;
     }
     
