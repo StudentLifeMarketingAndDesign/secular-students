@@ -72,6 +72,7 @@ Tags:
 .home-page-ul li {
 	margin-bottom: 0 !important;
 	padding: 11px;
+	list-style: none;
 }
 
 .display-none {
@@ -147,6 +148,9 @@ table.em-calendar {
     max-height: 333px;
     }
     
+#lord-grid {
+	margin-bottom: 25px;
+}    
 .lord-grid-item {
 	box-shadow: 8px 8px 5px #888888;
 	padding: 11px;
@@ -192,7 +196,7 @@ table.em-calendar {
     font-size: .77em;
     height: 100%;
     padding: 5px 8px;
-    width: 22%;
+    width: 23%;
     min-width: 100px;
 	}
 
@@ -248,3 +252,7 @@ table.em-calendar {
 .tag-heading {
     border-bottom: 8px;
     }
+    
+.sidebar-primary section {
+	
+	}

@@ -19,6 +19,10 @@ ul {
 	margin: 0;
 }
 
+hr {
+	margin-bottom:15px;
+}
+
 .site-container {
     color: #000;
     }
